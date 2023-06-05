@@ -1,6 +1,6 @@
 # KBPD: Knowledge Based Prohibited Item Detection on Heterogeneous Risk Graphs #
 This is the official codebase of the paper
-Knowledge Based Prohibited Item Detection on Heterogeneous Risk Graphs (论文链接)
+Knowledge Based Prohibited Item Detection on Heterogeneous Risk Graphs (论文链接待发布)
 
 ## Overview ##
 KBPD is a strong model that fuse information from both knowledge graphs and heterogeneous risk graphs. 
@@ -10,8 +10,8 @@ Furthermore, to utilize information from both the RDKG and the Heterogeneous Ris
 an interactive fusion framework is proposed and further improves performance in adversarial senario.
 Actually, KBPD can be applied to many content classification tasks with **limit supervision and adversarial behavior problems**, and prohibited item detection is just one fundamental and representative task.
 
-`![overview](asset/kbpd.svg)
-`
+![overview](asset/framework_all_v2.png)
+
 This codebase is based on PyTorch and [graph-learn]. 
 
 [graph-learn]: https://github.com/alibaba/graph-learn/tree/master
