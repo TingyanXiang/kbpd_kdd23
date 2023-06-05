@@ -36,14 +36,12 @@ In pratical apllication, we use a two-stage training strategy to guarantee effic
 
 ### RDKG Encoding ###
 In the first stage, RDKG is encoded and embeddings are saved for later training.
-`#### data #### 补充说明
-`
 ```bash
 python kbpd_kdd23/main_kg.py train
 python kbpd_kdd23/main_kg.py test
 ```
-Usually, you need run this command line for training and inference, with modification about data paths in `config/config_kg.py`.
-When inference, embeddings are saved in the output file automatically. 
+Usually, you need run this command line for training and inference, with modification about data location in `config/config_kg.py`.
+When inference, embeddings are saved in the output file automatically. About data format, there is detailed explanation in `config/config_kg.py`.
 
 ### Fusion with HRG ###
 In the second stage, embeddings from RKDG are passed through HRG.
@@ -54,3 +52,4 @@ python kbpd_kdd23/main_hrg.py train
 python kbpd_kdd23/main_hrg.py test
 ```
 Usually, you need run this command line for training and inference, with modification about data paths in `config/config_hrg.py`.
+About data format, there is detailed explanation in `config/config_hrg.py`.
