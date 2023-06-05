@@ -32,7 +32,7 @@ config = {
 
 # graph config
 graph_config = {
-    'data_root_path': None #default='./kbpd_kdd23_open_code_v2/data/'
+    'data_root_path': None #default='./kbpd_kdd23/data/'
     , 'meta_data': [['samplenode'],[('samplenode','sameseller','samplenode'),('samplenode','relatedseller','samplenode'),('samplenode','visit','samplenode')]]
     , 'default_label': -1 #default_label for nodes without labels
     , 'default_neighbor_id': 0  #default_node_id is used if there is no enough neibors when samping

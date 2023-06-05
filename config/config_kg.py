@@ -46,7 +46,7 @@ config = {
 
 # graph config
 graph_config= {
-    'data_root_path': None #default='./kbpd_kdd23_open_code_v2/data/'
+    'data_root_path': None #default='./kbpd_kdd23/data/'
     , 'tables_dict': {
         # node info in graph
         'node': {
