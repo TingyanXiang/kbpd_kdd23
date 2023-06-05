@@ -45,8 +45,6 @@ When inference, embeddings are saved in the output file automatically. About dat
 
 ### Fusion with HRG ###
 In the second stage, embeddings from RKDG are passed through HRG.
-`#### data #### 补充说明
-`
 ```bash
 python kbpd_kdd23/main_hrg.py train
 python kbpd_kdd23/main_hrg.py test
