@@ -38,8 +38,8 @@ In the first stage, RDKG is encoded and embeddings are saved for later training.
 `#### data #### 补充说明
 `
 ```bash
-python kbpd_kdd23_open_code_v2/main_kg.py train
-python kbpd_kdd23_open_code_v2/main_kg.py test
+python kbpd_kdd23/main_kg.py train
+python kbpd_kdd23/main_kg.py test
 ```
 Usually, you need run this command line for training and inference, with modification about data paths in `config/config_kg.py`.
 When inference, embeddings are saved in the output file automatically. 
@@ -49,7 +49,7 @@ In the second stage, embeddings from RKDG are passed through HRG.
 `#### data #### 补充说明
 `
 ```bash
-python kbpd_kdd23_open_code_v2/main_hrg.py train
-python kbpd_kdd23_open_code_v2/main_hrg.py test
+python kbpd_kdd23/main_hrg.py train
+python kbpd_kdd23/main_hrg.py test
 ```
 Usually, you need run this command line for training and inference, with modification about data paths in `config/config_hrg.py`.

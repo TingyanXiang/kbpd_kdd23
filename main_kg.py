@@ -21,7 +21,7 @@ from config.config_kg import config, graph_config
 cur_path = os.getcwd() #directory when running; by defualt, =directory where cloning this repository.
 print('cur_path: ', cur_path)
 if graph_config.get('data_root_path', None) is None:
-    graph_config['data_root_path'] = os.path.join(cur_path, 'kbpd_kdd23_open_code_v2', 'data')
+    graph_config['data_root_path'] = os.path.join(cur_path, 'kbpd_kdd23', 'data')
 if config.get('save_root_path', None) is None:
     config['save_root_path'] = os.path.join(cur_path, 'saved_models')
 if len(argv)>1:
